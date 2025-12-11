@@ -1,0 +1,52 @@
+Steps how to create, clone, and add files in your repository.
+
+Step 1: Create a repository in your github account.
+Step 2: Clone your repository from github to your local device. (Using cmd: git clone <url>).
+Step 3: Now create a angular Project. (Using cmd: ng new <Project_name>).
+Step 4: Now add your all files in your remote repository. (Using cmd: git add .)
+Step 5: Commit all things that reflect in your remote repository. (Using cmd: git commit -m " messege ")
+Step 6: before pushing your code check in which branch you are Commited (Using cmd: git branch)
+        if you want to switch the branch use (git branch -M main). Delete old Master: (git push origin --delete master)
+Step 7: Now push your code (Using : git push -u origin main)
+
+git branch
+git status
+git pull
+
+| Purpose                 | Command                                                             |
+| ------------------------| ------------------------------------------------                    |
+| Check Git version             | `git --version`                                               |
+| Initialize Git                | `git init`                                                    |
+| Configure username            | `git config --global user.name "Tabish"`                      |
+| Configure email               |   `git config --global user.email "mdtabishfiroz4@mail.com"`  |
+|Add specific file              |  git add file.txt                                             |
+| Show branches                 | `git branch`                                                  |
+| Create branch                 | `git branch feature-1`                                        |
+| Switch to branch              | `git checkout feature-1`                                      |
+| Create + switch               | `git checkout -b feature-1`                                   |
+| Delete branch                 | `git branch -d feature-1`                                     |
+| Push to remote                | `git push origin main`                                        |
+| Pull latest                   | `git pull origin main`                                        |
+| Fetch changes                 | `git fetch`                                                   |
+| Push to remote                | `git push origin main`                                        |
+| Pull latest                   | `git pull origin main`                                        |
+| Fetch changes                 | `git fetch`                                                   |
+| Show connected remotes        | `git remote -v`                                               |
+| Add new remote                | `git remote add origin <url>`                                 |
+| Remove remote                 | `git remote remove origin`                                    |
+| Merge branch                  | `git merge feature-1`                                         |
+| Abort merge                    | `git merge --abort`                                          |
+| Solve conflicts → commit again |                                                              |
+| Undo staged file               | `git reset file.txt`                                         |
+| Undo commit (keep changes)     | `git reset --soft HEAD~1`                                    |
+| Undo commit (remove changes)   | `git reset --hard HEAD~1`                                    |
+
+
+
+Add collaborators (simple & best)
+If you own the GitHub repo:
+
+Step 1 — Go to repo → Settings → Collaborators
+Step 2 — Add their GitHub username/email
+Step 3 — They accept invitation
+Step 4 — They can now push like you
