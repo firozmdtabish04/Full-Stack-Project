@@ -40,6 +40,7 @@ git pull
 | Undo staged file               | `git reset file.txt`                                         |
 | Undo commit (keep changes)     | `git reset --soft HEAD~1`                                    |
 | Undo commit (remove changes)   | `git reset --hard HEAD~1`                                    |
+|Remove deleted files from Git index | git rm -r --cached ../ANGULAR_TUT                        |
 
 
 
