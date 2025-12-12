@@ -1,1 +1,1 @@
-# Angular-Tutorial + SpringBoot Project
+# Angular + SpringBoot Project
