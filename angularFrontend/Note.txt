@@ -51,3 +51,5 @@ Step 1 — Go to repo → Settings → Collaborators
 Step 2 — Add their GitHub username/email
 Step 3 — They accept invitation
 Step 4 — They can now push like you
+
+all done
